@@ -1,0 +1,6 @@
+{
+  "name": "City Deals",
+  "description": "Production-ready Android Jetpack Compose codebase, Gradle configurations, Firebase services, and an interactive dual-role emulator for LocalDeals.",
+  "requestFramePermissions": ["geolocation"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

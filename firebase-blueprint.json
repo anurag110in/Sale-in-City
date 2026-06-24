@@ -1,0 +1,52 @@
+{
+  "collections": {
+    "shops": {
+      "fields": {
+        "id": { "type": "string" },
+        "name": { "type": "string" },
+        "city": { "type": "string" },
+        "address": { "type": "string" },
+        "lat": { "type": "number" },
+        "lng": { "type": "number" },
+        "image": { "type": "string" },
+        "rating": { "type": "number" },
+        "reviewsCount": { "type": "number" }
+      }
+    },
+    "sales": {
+      "fields": {
+        "id": { "type": "string" },
+        "shopId": { "type": "string" },
+        "shopName": { "type": "string" },
+        "city": { "type": "string" },
+        "discount": { "type": "number" },
+        "description": { "type": "string" },
+        "startDate": { "type": "string" },
+        "endDate": { "type": "string" },
+        "isActive": { "type": "boolean" }
+      }
+    },
+    "reviews": {
+      "fields": {
+        "id": { "type": "string" },
+        "shopId": { "type": "string" },
+        "customerName": { "type": "string" },
+        "score": { "type": "number" },
+        "comment": { "type": "string" },
+        "isRealPromo": { "type": "boolean" },
+        "timestamp": { "type": "string" }
+      }
+    },
+    "notifications": {
+      "fields": {
+        "id": { "type": "string" },
+        "type": { "type": "string" },
+        "customerName": { "type": "string" },
+        "saleId": { "type": "string" },
+        "saleName": { "type": "string" },
+        "timestamp": { "type": "string" },
+        "read": { "type": "boolean" }
+      }
+    }
+  }
+}

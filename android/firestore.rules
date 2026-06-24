@@ -1,0 +1,31 @@
+rules_version = '2';
+service cloud.firestore {
+  match /databases/{database}/documents {
+    
+    // User profile permissions
+    match /users/{userId} {
+      // Any authenticated user can read other profiles (to view Shop name, Category, and Details)
+      allow read: if request.auth != null;
+      // Only the profile owner can write/edit their profile
+      allow write: if request.auth != null && request.auth.uid == userId;
+    }
+
+    // Sales events permissions
+    match /sales/{saleId} {
+      // Anyone logged in can read Active Sale events
+      allow read: if request.auth != null;
+      // Shop owners can create and edit their own sales events
+      allow create, update: if request.auth != null && request.resource.data.shopId == request.auth.uid;
+      allow delete: if request.auth != null && resource.data.shopId == request.auth.uid;
+    }
+
+    // Customer reviews & ratings permissions
+    match /reviews/{reviewId} {
+      // Any authenticated user can read reviews
+      allow read: if request.auth != null;
+      // Customers can write ratings, but cannot edit or delete other customer reviews
+      allow create: if request.auth != null && request.resource.data.customerId == request.auth.uid;
+      allow update, delete: if request.auth != null && resource.data.customerId == request.auth.uid;
+    }
+  }
+}

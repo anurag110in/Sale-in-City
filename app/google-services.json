@@ -1,0 +1,131 @@
+{
+  "project_info": {
+    "project_number": "976036359899",
+    "firebase_url": "https://rentlow-bde76-default-rtdb.firebaseio.com",
+    "project_id": "rentlow-bde76",
+    "storage_bucket": "rentlow-bde76.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976036359899:android:14c0716fc635c3294566fe",
+        "android_client_info": {
+          "package_name": "com.localdeals.app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976036359899-2o8kqdgs7sc2h0mnpnmdm37j4521pln0.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.localdeals.app",
+            "certificate_hash": "45e2814aa57b3f821fb1ac59710d33de4b2ba3a5"
+          }
+        },
+        {
+          "client_id": "976036359899-c4ppjbb02q8t2bc2vs8j7idoee0fbkfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpymXK8ZRwQS86muUeqbWdPQtGB3zXRZ4"
+        },
+        {
+          "current_key": "AIzaSyBg47YzjpSm28njXzwVsxynSgiiOzpKgng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101954336244003664180",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976036359899:android:39a7ce0b17ac9f794566fe",
+        "android_client_info": {
+          "package_name": "com.rentapp.rentlow"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976036359899-c4ppjbb02q8t2bc2vs8j7idoee0fbkfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpymXK8ZRwQS86muUeqbWdPQtGB3zXRZ4"
+        },
+        {
+          "current_key": "AIzaSyBg47YzjpSm28njXzwVsxynSgiiOzpKgng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101954336244003664180",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:976036359899:android:0d00c4ce8ae8735e4566fe",
+        "android_client_info": {
+          "package_name": "com.rentlow.appliances"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "976036359899-09pb02k58d1vlff59h9nuib0vk21oc99.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rentlow.appliances",
+            "certificate_hash": "906f347d50ad16f68789b664dbe32f41e6d1a8d8"
+          }
+        },
+        {
+          "client_id": "976036359899-c1b1r05ebrlm4pi7gssviqfv9tpvqvgp.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.rentlow.appliances",
+            "certificate_hash": "5ec6fdd5cb49b91c203d3b0bc245d7529e4dd1fe"
+          }
+        },
+        {
+          "client_id": "976036359899-c4ppjbb02q8t2bc2vs8j7idoee0fbkfk.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDpymXK8ZRwQS86muUeqbWdPQtGB3zXRZ4"
+        },
+        {
+          "current_key": "AIzaSyBg47YzjpSm28njXzwVsxynSgiiOzpKgng"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "101954336244003664180",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
